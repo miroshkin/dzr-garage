@@ -5,6 +5,14 @@
     <UserSecretsId>aspnet-DzrGarage-C9AC6E16-D4A1-451B-A351-9A217AEC70D9</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <EmbeddedResource Remove="Resources\Views.Shared._Layout.ru.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Views.Shared._Layout.ru.resx" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.0.0" />
