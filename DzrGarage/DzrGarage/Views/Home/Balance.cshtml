@@ -1,0 +1,11 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@model object
+
+@{
+    ViewBag.Title = "Balance";
+    Layout = "_Layout";
+}
+
+<h2>@Localizer["Balance"]</h2>
+<div>Ваш баланс составляет - 100 руб.</div>

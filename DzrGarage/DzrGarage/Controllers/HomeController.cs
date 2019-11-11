@@ -34,6 +34,11 @@ namespace DzrGarage.Controllers
             return View(myBoxes);
         }
 
+        public IActionResult Balance()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
