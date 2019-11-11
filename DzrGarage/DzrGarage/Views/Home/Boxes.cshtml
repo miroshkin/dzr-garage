@@ -1,0 +1,11 @@
+﻿@model List<Box>
+
+
+<div>
+    @{
+        foreach (var m in @Model)
+        {
+            <div>@m.Id  @m.Name @m.UserId</div>
+        }
+    }
+</div>
