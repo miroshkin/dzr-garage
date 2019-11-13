@@ -25,13 +25,13 @@ namespace DzrGarage.Controllers
 
         public IActionResult Boxes()
         {
-            var myBoxes = new List<Box>()
+            var boxes = new List<Box>()
             {
                 new Box(){Id = 18, Name = "Box №18", UserId = "63f43fc4-7ce2-4016-babd-e1c145d723b0"},
                 new Box(){Id = 17, Name = "Box №17", UserId = "63f43fc4-7ce2-4016-babd-e1c145d723b0"}
             };
 
-            return View(myBoxes);
+            return View(boxes);
         }
 
         public IActionResult Balance()
@@ -39,7 +39,7 @@ namespace DzrGarage.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Contacts()
         {
             return View();
         }
